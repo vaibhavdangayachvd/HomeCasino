@@ -1,0 +1,100 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../images/21-card-game-bet-black-jack-1871508.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family:sans-serif;
+}
+.loginbox{
+position:absolute;
+top:50%;
+left: 50%;
+-webkit-transform: translate(-50%,-50%);
+-moz-transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+-o-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+width:320px;
+height: 510px;
+padding: 70px 30px;
+box-sizing:border-box;
+background: rgba(0,0,0,.7);
+}
+.avatar{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+h1{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:22px;
+}
+.loginbox p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	color:#F36;
+}
+.loginbox input{
+	width:100%;
+	margin-bottom:20px;
+}
+.loginbox button{
+	width:100%;
+	margin-bottom:20px;
+}
+.loginbox input[type="text"],input[type="password"]{
+	border:none;
+	border-bottom:1px solid #fff;
+	background: transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+.loginbox input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+}
+.loginbox input[type="checkbox"]{
+	width:40px;
+}
+.loginbox button[type="button"]{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+}
+	
+.loginbox input[type="submit"]:hover{
+	cursor:pointer;
+	background:#ffc107;
+	color:#000;
+}
+.loginbox button[type="button"]:hover{
+	cursor:pointer;
+	background:#ffc107;
+	color:#000;
+}
+.loginbox a{
+	padding:0;
+	font-weight:bold;
+	color:#ffc107;
+}
+.loginbox a:hover{
+	color: green;
+}

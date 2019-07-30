@@ -1,0 +1,45 @@
+body{
+	background:#61b3de;
+}
+table 
+{
+	border:2px solid white;
+	text-align:center;
+	font-size:24px;
+	padding:20px;
+	align:center;
+	height:50%;
+	width:50%;
+	color:#FFF;
+	
+}
+th{
+	text-align:center;
+	color:#FFF;
+
+	font-size:28px;
+	background:#ee6123;
+}
+tr,td{
+	border:2px solid white;
+}
+
+	
+h1{
+	text-align:center;
+	padding:10px;
+	font-size:48px;
+	color:white;
+}
+
+input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#ee6123;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+	width:150px;
+	text-align:center;
+}
